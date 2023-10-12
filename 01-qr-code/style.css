@@ -5,29 +5,29 @@ body {
   align-items: center;
 }
 .container {
+  max-width: 20rem;
+  padding: 1.2rem;
+  margin: 3rem auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: white;
   border-radius: 20px;
-  width: 320px;
-  padding: 20px;
-  margin: 50px auto;
 }
 .container__img {
   width: 100%;
   border-radius: 10px;
 }
 .container__main {
-  padding: 0 30px;
+  padding: 0 1.8rem;
   font-family: "Outfit", sans-serif;
   text-align: center;
 }
 .container__title {
-  font-size: 22px;
+  font-size: 1.3rem;
   color: hsl(218, 44%, 22%);
 }
 .container__subtitle {
-  font-size: 15px;
+  font-size: 1rem;
   color: hsl(220, 15%, 55%);
 }
