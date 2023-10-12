@@ -1,2 +1,5 @@
 # front-end-mentor
-challenges
+
+Done :
+
+* 01-qr-code
