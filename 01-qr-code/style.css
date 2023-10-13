@@ -1,14 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #d5e1ef;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .container {
-  max-width: 20rem;
-  padding: 1.2rem;
-  margin: 5.5rem auto;
+  width: 20rem;
+  height: 31.25rem;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,13 +27,14 @@ body {
   border-radius: 10px;
 }
 .container__main {
-  padding: 0 1.8rem;
+  padding: 1rem 1.8rem;
   font-family: "Outfit", sans-serif;
   text-align: center;
 }
 .container__title {
   font-size: 1.3rem;
   color: hsl(218, 44%, 22%);
+  margin-bottom: 1rem;
 }
 .container__subtitle {
   font-size: 1rem;
